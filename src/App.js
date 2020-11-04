@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Button from './Components/Button'
+import TextInput from './Components/TextInput'
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           On the fly change.
-          <Button/>
+          <Button id="myCustomId"/>
         </p>
         <a
           className="App-link"
@@ -19,6 +20,8 @@ function App() {
         >
           Learn React
         </a>
+        <br />
+        <TextInput/>
       </header>
     </div>
   );

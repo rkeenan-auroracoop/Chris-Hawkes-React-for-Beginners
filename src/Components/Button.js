@@ -1,12 +1,12 @@
 import React from 'react';
 
-function Button () {
+function Button (props) {
     const myClick = function () {
         alert('you clicked the button!')
     }
 
     return  (
-        <button id='myButton' onClick={myClick}>Press Me</button>
+        <button id={props.id} onClick={myClick}>Press Me</button>
         
     )
 }
