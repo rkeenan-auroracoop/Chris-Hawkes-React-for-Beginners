@@ -1,29 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import Button from './Components/Button'
-import TextInput from './Components/TextInput'
+import React from 'react';
+import Button from './Components/Button';
+import TextInput from './Components/TextInput';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1 className='custom-header'>Hello World!</h1>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          On the fly change.
-          <Button id="myCustomId"/>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <br />
-        <TextInput/>
-      </header>
+
+    
+
     </div>
   );
 }
