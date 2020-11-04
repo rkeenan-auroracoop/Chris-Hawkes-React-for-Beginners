@@ -1,14 +1,21 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 
 let TextInput = () => {
     let [ourText, updateTextFunction] = useState("");
+    let inputRef = useRef();
+
+    useEffect(() => {
+        //document.querySelector('#findThisTextInput').focus();
+        inputRef.current.focus();
+    })
+    
     return (
         <div>
             <br/>
             <h2>{ourText}</h2>
-            <label for="textInput">Enter Some Text:</label>
+            <label id="findThis" for="textInput">Enter Some Text:</label>
             <br />
-            <input onChange={(event) => {updateTextFunction(event.target.value)}} type="text" name='textInput'/>
+            <input ref={inputRef} id="findThisTextInput" onChange={(event) => {updateTextFunction(event.target.value)}} type="text" name='textInput'/>
         </div>
     )
 }
