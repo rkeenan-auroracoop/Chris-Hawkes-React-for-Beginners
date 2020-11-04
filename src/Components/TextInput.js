@@ -5,6 +5,7 @@ let TextInput = () => {
     let inputRef = useRef();
 
     useEffect(() => {
+        //both of the lines below do the same thing. The second line is the recommended way to do it.
         //document.querySelector('#findThisTextInput').focus();
         inputRef.current.focus();
     })
