@@ -6,7 +6,7 @@ function Button (props) {
     }
 
     return  (
-        <button id={props.id} onClick={myClick}>Press Me</button>
+        <button id={props.id} dataname={props.dataName} onClick={myClick}>Press Me</button>
         
     )
 }

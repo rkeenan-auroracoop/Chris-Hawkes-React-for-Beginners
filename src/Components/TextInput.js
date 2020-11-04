@@ -13,7 +13,7 @@ let TextInput = () => {
         <div>
             <br/>
             <h2>{ourText}</h2>
-            <label id="findThis" for="textInput">Enter Some Text:</label>
+            <label id="findThis" htmlFor="textInput">Enter Some Text:</label>
             <br />
             <input ref={inputRef} id="findThisTextInput" onChange={(event) => {updateTextFunction(event.target.value)}} type="text" name='textInput'/>
         </div>
