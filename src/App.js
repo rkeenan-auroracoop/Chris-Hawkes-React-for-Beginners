@@ -6,7 +6,7 @@ function App() {
       <React.Fragment>
         <div className="container ">
           <div className="row">
-            <h1 className="">My Videos</h1>
+            <h1 className="text-center">My Videos</h1>
           </div>
         </div>
       </React.Fragment>
