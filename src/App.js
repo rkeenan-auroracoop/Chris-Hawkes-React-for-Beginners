@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from './Components/Button'
 
 function App() {
   return (
@@ -7,7 +8,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          On the fly change.
+          <Button/>
         </p>
         <a
           className="App-link"
