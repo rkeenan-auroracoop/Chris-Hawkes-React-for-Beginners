@@ -7,7 +7,8 @@ class  Paragraph extends React.Component {
         }
     
     componentDidMount() {
-        alert(document.getElementById("grabThis"));
+        //alert(document.getElementById("grabThis"));
+        //instantiation stuff
     }
 
     render() {
