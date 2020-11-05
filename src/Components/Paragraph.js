@@ -5,9 +5,14 @@ class  Paragraph extends React.Component {
     constructor(props) {
         super(props);
         }
+    
+    componentDidMount() {
+        alert(document.getElementById("grabThis"));
+    }
+
     render() {
         return(
-            <p>{this.props.text}</p>
+            <p id="grabThis">{this.props.text}</p>
         )
     }
 }
