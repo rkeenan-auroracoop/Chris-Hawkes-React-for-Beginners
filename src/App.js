@@ -13,6 +13,7 @@ function App() {
               <Video 
               url="https://www.youtube.com/embed/SMQOv_NT6WE"
               title="Things I Wish I Knew When I Started Programming"
+              text="video one about blahhh"
               />
 
             </div>
@@ -20,6 +21,7 @@ function App() {
               <Video 
               url="https://www.youtube.com/embed/YVDLNFEuvEI"
               title="Orderly Dissolution of the United States into Its Component Parts"
+              text="video two about blahhh"
               />
             </div>
           </div>
